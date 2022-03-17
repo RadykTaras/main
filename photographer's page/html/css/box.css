@@ -1,0 +1,62 @@
+
+
+.wrapper{
+  perspective: 1200px;
+}
+
+#cube{
+  position: relative;
+  width: 300px;
+  height: 625px;
+  margin: 100px auto;
+  transform-style: preserve-3d;
+  transform-origin: 50% 50% -150px;
+  transform: rotate3d(-0.3,1,0,8deg);
+  transition: 2s;
+}
+
+.side{
+  position: absolute;
+  border-radius: 10px;
+  line-height: 300px;
+  transform-origin: 50% 50% -150px;
+  backface-visibility: hidden;
+}
+
+
+#side1{
+  width: 300px;
+  height: 625px;
+}
+#side2{
+  transform: rotateY(90deg);
+  width: 300px;
+  height: 625px;
+}
+#side3{
+  transform: rotateY(-90deg);
+  width: 300px;
+  height: 625px;
+}
+#side4{
+  transform: rotateX(90deg);
+  width: 300px;
+  height: 300px;
+}
+#side5{
+  transform: rotateX(-90deg) translatez(325px);
+  width: 300px;
+  height: 300px;
+}
+#side6{
+  transform: rotateY(180deg);
+  width: 300px;
+  height: 625px;
+}
+
+#cube img{
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+}
+
