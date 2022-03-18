@@ -1,0 +1,111 @@
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+#photo{
+    width: 130px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logos{
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+#in{
+    height: 14px;
+    margin-left: 20px;
+}
+
+#fb{
+    height: 16px;
+}
+.title {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    vertical-align: text-top;
+    height: 18px;
+    font-weight: 700;
+}
+
+.job {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    vertical-align: text-top;
+    height: 16px;
+}
+
+.txt{
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    line-height: 1.1;
+    vertical-align: text-top;
+    font-weight: 400;
+}
+
+table, th, tr, td{
+    border: rgb(255, 255, 255) solid 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+table {
+    width: 350px;
+}
+
+#photoPosition{
+    width: 130px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: text-top;
+    text-align: right;
+}
+
+#leaterLogo{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    width: 110px;
+    margin-left: 10px;
+}
+
+#leaterURL{
+   display: block;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 14px;
+   text-decoration: none;
+   text-decoration: underline white;
+   font-weight: 800;
+}
+
+#none{
+    width: 6px;
+}
+
+#addres{
+    margin-top: 3px;
+}
+
+#mail{
+    text-decoration: none;
+    color: black;
+}
+
+#hr1{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
